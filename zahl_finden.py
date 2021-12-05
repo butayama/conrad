@@ -10,7 +10,7 @@ def zufall():
         if zahl < tipp:
             print("Die gesuchte Zahl ist kleiner als ", tipp)
         if zahl > tipp:
-            print("Die gesuchte Zahl ist größer als ", tipp)
+            print("Die gesuchte Zahl ist groesser als ", tipp)
         i += 1
     print("Du hast die Zahl beim ", i, ". Tipp erraten")
 
