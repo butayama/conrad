@@ -1,8 +1,11 @@
+#!/usr/bin/env python
 from gpiozero import Button
 from signal import pause
 
+
 def say_hello():
     print("Hello!")
+
 
 button = Button(2)
 
