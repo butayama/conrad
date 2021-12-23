@@ -16,6 +16,7 @@ class UnknownException(Exception):
 def led_aus(gv=0):
     return gv
 
+
 try:
     while weiter:
         graph.value = 1  # (1, 1, 1, 1, 1)
@@ -79,7 +80,7 @@ except UnknownException:
     # this catches ALL other exceptions including errors.
     # You won't get any error messages for debugging
     # so only use it once your code is working
-    raise UnknownException("UnknownException occured")
+    raise UnknownException("UnknownException occurred")
 
 finally:
     graph.value = 0  # (0, 0, 0, 0, 0, 0)
